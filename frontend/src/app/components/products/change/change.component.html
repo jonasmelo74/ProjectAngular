@@ -1,0 +1,16 @@
+<mat-card class="mat-elevation-z8">
+    <mat-card-title class="title">Alterar produto: </mat-card-title>
+    <form>
+        <mat-form-field class="input-name" appearance="fill">
+            <mat-label>Nome</mat-label>
+            <input matInput placeholder="" [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+
+        <mat-form-field class="input-name" appearance="fill">
+            <mat-label>Preço</mat-label>
+            <input matInput placeholder="" [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button class="alterar" (click)="change()">Alterar</button>
+    <button mat-raised-button class="cancelar" (click)="cancelChange()">Cancelar</button>
+</mat-card>

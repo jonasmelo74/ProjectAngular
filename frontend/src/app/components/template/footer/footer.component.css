@@ -1,0 +1,16 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.footer > span {
+    font-size: 1.3rem;
+    font-weight: 300;
+}

@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.excluir { 
+    margin-right: 20px;
+    background-color: #AF4040;
+}

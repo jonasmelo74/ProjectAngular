@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "name": "Caneta",
+      "price": "2.91",
+      "id": 2
+    },
+    {
+      "name": "Skate",
+      "price": "159",
+      "id": 4
+    },
+    {
+      "name": "Caneta",
+      "price": "156",
+      "id": 5
+    },
+    {
+      "name": "Caneta",
+      "price": "2.99",
+      "id": 6
+    }
+  ]
+}
