@@ -12,7 +12,6 @@ export class CreateComponent implements OnInit {
 
   product: Product = {
     name: '' ,
-    price: null
   }
 
   constructor(private productService: ProductService,
@@ -21,15 +20,26 @@ export class CreateComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  verification(): number{
+    let conv = this.product.price?.toString()
+    conv = conv?.replace(",", ".");
+    return Number(conv)
+  }
+
   createProduct(): void {
+    if (this.product.price !== undefined) {
+    this.product.price = this.verification();
     this.productService.createProduct(this.product).subscribe(() => {
     this.productService.showMessage('Produto criado!')
     this.router.navigate(['products'])
     })
+  } else {
+    this.productService.showMessage('Não existe produto para cadastro!');
   }
+}
 
   cancel(): void {
-    this.router.navigate(['products'])
-    this.productService.showMessage('Cadastro cancelado!')
+    this.router.navigate(['products']);
+    this.productService.showMsg('msg3')
   }
 }

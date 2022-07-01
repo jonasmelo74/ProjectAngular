@@ -14,3 +14,14 @@
     font-size: 1.3rem;
     font-weight: 300;
 }
+
+img {
+    max-width: 30px;
+    max-height: 30px;
+    vertical-align: middle;
+}
+
+a {
+   text-decoration: none;
+   color: #000;
+}

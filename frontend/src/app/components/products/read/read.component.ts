@@ -1,16 +1,8 @@
-import { ProductService } from 'src/app/components/products/product.service';
 import { HttpClient } from '@angular/common/http';
-import { Product } from '../product.model';
-import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-
-// export interface PeoriodicElement {
-//   name: string;
-//   position: number;
-//   price: number;
-//   symbol: string;
-//   action: string;
-// }
+import { Router } from '@angular/router';
+import { ProductService } from 'src/app/components/products/product.service';
+import { Product } from '../product.model';
 
 @Component({
   selector: 'app-read',
@@ -26,10 +18,8 @@ export class ReadComponent implements OnInit {
 
   ngOnInit(): void {
     //productService é um objeto que contém todos os métodos do serviço
-
     this.productService.getProduct().subscribe(products => {
       this.products = products;
-      console.log(products);
     })
   }
 

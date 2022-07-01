@@ -11,9 +11,10 @@ import { catchError, retry } from 'rxjs/operators'
   providedIn: 'root'
 })
 export class ProductService {
+  
   //[x: string]: any;
 
-  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
+  constructor(private snackBar: MatSnackBar, private http: HttpClient, private route: Router) { }
 
   baseUrl = "http://localhost:3001/products"
   
@@ -52,10 +53,21 @@ export class ProductService {
   }
 
   //Função passando o router
-  navigateProduct(router Router) {
-  this.router.navigate(['products']); 
-  }   
-    
- 
+  navigateProduct(route: string) {
+  this.route.navigate([route]); 
+  }
 
+  showMsg(msg: String){  
+    switch (msg) {
+      case 'msg1':
+        let msg1 = this.showMessage('Produto não foi alterado')
+        break;
+      case 'msg2':
+        let msg2 =  this.showMessage('Produto não foi excluído')
+        break;
+      case 'msg3':
+        let msg3 = this.showMessage('Novo produto foi cancelado')
+        break;
+    }
+  }
 }

@@ -13,7 +13,6 @@ export class DeleteComponent implements OnInit {
 
   product: Product = {
     name: '',
-    price: null
   }
 
   constructor(private productService: ProductService,
@@ -36,7 +35,7 @@ export class DeleteComponent implements OnInit {
     if (this.product !== null) {
       this.productService.deleteProductService(this.product).subscribe(() => {
         this.productService.showMessage('Produto excluído com sucesso');
-        this.router.navigate(['/products']);
+        this.productService.navigateProduct('products') //passando a rota do produto para uma função no product.service.ts
       })
     } else {
       throw 'product is null';
@@ -44,7 +43,7 @@ export class DeleteComponent implements OnInit {
   }
 
   cancelDelete(): void {
-    this.router.navigate(['/products']);
-    this.productService.showMessage('Exclusão cancelada!');
+    this.productService.navigateProduct('products')
+    this.productService.showMsg('msg2')
   }
 }

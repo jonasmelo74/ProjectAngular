@@ -12,7 +12,6 @@ export class ChangeComponent implements OnInit {
 
   product: Product = {
     name: '',
-    price: null
   }
 
   constructor(private productService: ProductService,
@@ -37,6 +36,6 @@ export class ChangeComponent implements OnInit {
 
   cancelChange(){
     this.router.navigate(['products']);
-    this.productService.showMessage('Alteração cancelada!')
+    this.productService.showMsg('msg1')
   }
 }

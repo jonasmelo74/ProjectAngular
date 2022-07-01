@@ -2,3 +2,14 @@ table {
     width: 100%;
  }
  
+.link {
+   cursor: pointer; 
+}
+
+.teste th{
+   padding-left: 80px;
+}
+
+.teste td{
+   padding-left: 80px;
+}

@@ -1,24 +1,29 @@
 {
   "products": [
     {
-      "name": "Caneta",
-      "price": "2.91",
+      "name": "TESTE 1",
+      "price": 10.5,
+      "id": 1
+    },
+    {
+      "name": "TESTE 2",
+      "price": 10.55,
       "id": 2
     },
     {
-      "name": "Skate",
-      "price": "159",
+      "name": "TESTE 3",
+      "price": 11.29,
+      "id": 3
+    },
+    {
+      "name": "TESTE 5",
+      "price": 11.945,
       "id": 4
     },
     {
-      "name": "Caneta",
-      "price": "156",
+      "name": "TESTE 7",
+      "price": 15.066,
       "id": 5
-    },
-    {
-      "name": "Caneta",
-      "price": "2.99",
-      "id": 6
     }
   ]
 }
