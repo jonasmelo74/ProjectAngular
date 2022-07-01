@@ -24,6 +24,11 @@
       "name": "TESTE 7",
       "price": 15.066,
       "id": 5
+    },
+    {
+      "name": "Car",
+      "price": 15.51,
+      "id": 6
     }
   ]
 }

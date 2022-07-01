@@ -23,6 +23,7 @@ export class ProductService {
     return this.http.get<Product>(url)
   }
 
+  //change Product from database and update the product in the array of products 
   changeProduct(product: Product): Observable<Product> {
     const url = `${this.baseUrl}/${product.id}`;
     return this.http.put<Product>(url, product)
@@ -56,6 +57,8 @@ export class ProductService {
   navigateProduct(route: string) {
   this.route.navigate([route]); 
   }
+
+
 
   showMsg(msg: String){  
     switch (msg) {
