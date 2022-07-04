@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ProductService } from 'src/app/components/products/product.service';
 import { Product } from '../product.model';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @Component({
   selector: 'app-read',

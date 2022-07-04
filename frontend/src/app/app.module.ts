@@ -27,6 +27,7 @@ import { HttpClientModule } from '@angular/common/http';
 import localePt from '@angular/common/locales/pt';
 import { FormsModule } from '@angular/forms';
 registerLocaleData(localePt, 'pt');
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
@@ -55,7 +56,8 @@ registerLocaleData(localePt, 'pt');
     MatSnackBarModule,
     MatInputModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatPaginatorModule
   ],
   providers: [
     {

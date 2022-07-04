@@ -7,9 +7,13 @@ table {
 }
 
 .teste th{
-   padding-left: 80px;
+   padding-left: 110px;
 }
 
 .teste td{
-   padding-left: 80px;
+   padding-left: 110px;
+}
+
+mat-paginator { 
+   width: 100%;
 }

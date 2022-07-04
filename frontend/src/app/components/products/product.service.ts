@@ -5,10 +5,12 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { HttpClient } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators'
+import { map } from 'rxjs/operators';
 
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root'  //service singleton angular = root
+  //Sigleton é uma classe que possue uma única instância 
 })
 export class ProductService {
   
@@ -42,9 +44,9 @@ export class ProductService {
 
   //Pegando os dados da tabela 
   getProduct(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.baseUrl);
+    return this.http.get<Product[]>(this.baseUrl)
   }
-  
+
   showMessage(msg: string): void {
     this.snackBar.open(msg, 'X', {
       duration: 3000,
