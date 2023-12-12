@@ -24,7 +24,7 @@ Você pode baixar este projeto de duas maneiras: via download direto ou clonando
 Opção 1: Download Direto
 Navegue até a página principal do projeto no GitHub:
 
-https://github.com/jonasmelo74/ProjectAngular
+github.com/jonasmelo74/ProjectAngular
 Clique no botão "Code" (ou "Código") e selecione "Download ZIP".
 
 Extraia o arquivo ZIP em uma pasta de sua escolha.
@@ -36,7 +36,7 @@ Navegue até a pasta onde deseja clonar o repositório.
 
 Execute o seguinte comando:
 
-https://github.com/jonasmelo74/ProjectAngular.git
+github.com/jonasmelo74/ProjectAngular.git
 Contribuição
 Se você deseja contribuir para este projeto, siga estas etapas:
 
@@ -57,6 +57,6 @@ Abra um pull request para este repositório.
 Contato
 Se você tiver alguma dúvida ou precisar entrar em contato, você pode me encontrar no LinkedIn :
 
-https://www.linkedin.com/in/jonas-melo-420a5115a/
+linkedin.com/in/jonas-melo-420a5115a/
 
 Obrigado por usar o projeto Carrinho de Compras!
