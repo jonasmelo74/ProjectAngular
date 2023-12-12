@@ -57,6 +57,6 @@ Abra um pull request para este repositório.
 Contato
 Se você tiver alguma dúvida ou precisar entrar em contato, você pode me encontrar no LinkedIn :
 
-https://www.linkedin.com/in/rodrigolc/
+https://www.linkedin.com/in/jonas-melo-420a5115a/
 
 Obrigado por usar o projeto Carrinho de Compras!
