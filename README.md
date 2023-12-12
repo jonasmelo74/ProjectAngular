@@ -1,27 +1,22 @@
-## CRUD - Angular
 ![Exemplo](https://raw.githubusercontent.com/jonasmelo74/ProjectAngular/main/assets/60903169/93d1a6ad-b655-452e-b40c-fcaa58baac1f.gif)
-Aqui você encontrará todas as informações necessárias para baixar e executar este projeto em sua máquina local.
 
-Descrição do Projeto
-Este projeto é uma pequena simulação de um carrinho de compras. segue
+# CRUD ANGULAR
+Bem-vindos à apresentação do projeto, no qual designa-se em um CRUD desenvolvido com Angular! Neste projeto, buscamos criar uma aplicação eficiente, responsiva e de fácil utilização para realizar operações básicas de gerenciamento de dados: Create, Read, Update e Delete (CRUD). O Angular foi escolhido como framework principal devido à sua robustez, flexibilidade e vasta comunidade de desenvolvedores.
 
-Introdução: Desenvolver uma pequena aplicação que adiciona itens a um carrinho de compras a partir de uma lista de produtos.
+Eficiência no Desenvolvimento:
+Framework poderoso para o desenvolvimento front-end.
+Facilita a criação de Single Page Applications (SPAs) e o gerenciamento eficiente do estado da aplicação.
+TypeScript:
+Linguagem fortemente tipada que aumenta a produtividade e a segurança do código.
+Bootstrap:
+Framework de design para garantir uma interface responsiva e esteticamente agradável.
 
-Deve haver uma lista de produtos pré-definida onde o usuário poderá adicionar e remover produtos no carrinho;
-Para cada produto deve haver um preço pré-definido;
-Para cada produto deve haver um percentual de IPI (Impostos sobre Produtos Industrializados) pré-definido;
-Para cada produto, o usuário poderá definir a quantidade que deseja comprar;
-Premissas:
+## Próximos Passos
+Testes:
+Implementação de testes unitários e de integração para garantir a robustez do sistema.
 
-Quando o usuário clicar no botão para excluir um produto, ele deve ser alertado se realmente deseja realizar esta ação antes da realização dos cálculos;
-Quando o usuário clicar no botão para adicionar um produto, os valores do produto e do pedido devem ser calculados, sendo:
-Subtotal do item: Preço * Quantidade - Desconto (%) + IPI (%)
-Total de Produtos: somatório dos preços dos produtos com os descontos aplicados;
-Total de Impostos: somatório do valor de impostos adicionado em cada item;
-Total do Pedido: somatório do subtotal dos itens.
-Pré-requisitos
-Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
-VSCode ou outro IDE de sua prefência
+## Integração Contínua:
+Implementação de pipelines de integração contínua para garantir uma entrega de código eficiente e confiável.
 
 Como Baixar o Projeto
 Você pode baixar este projeto de duas maneiras: via download direto ou clonando o repositório.
@@ -29,7 +24,7 @@ Você pode baixar este projeto de duas maneiras: via download direto ou clonando
 Opção 1: Download Direto
 Navegue até a página principal do projeto no GitHub:
 
-https://github.com/digaogalo/e-commerce-challenge
+https://github.com/jonasmelo74/ProjectAngular
 Clique no botão "Code" (ou "Código") e selecione "Download ZIP".
 
 Extraia o arquivo ZIP em uma pasta de sua escolha.
@@ -41,7 +36,7 @@ Navegue até a pasta onde deseja clonar o repositório.
 
 Execute o seguinte comando:
 
-https://github.com/digaogalo/e-commerce-challenge.git
+https://github.com/jonasmelo74/ProjectAngular.git
 Contribuição
 Se você deseja contribuir para este projeto, siga estas etapas:
 
