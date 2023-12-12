@@ -49,7 +49,7 @@ export class ProductService {
 
   showMessage(msg: string): void {
     this.snackBar.open(msg, 'X', {
-      duration: 3000,
+      duration: 100000,
       horizontalPosition: "right",
       verticalPosition: "top"
     })
@@ -60,18 +60,17 @@ export class ProductService {
   this.route.navigate([route]); 
   }
 
-
-
   showMsg(msg: String){  
+    console.log(msg)
     switch (msg) {
       case 'msg1':
-        let msg1 = this.showMessage('Produto não foi alterado')
+        this.showMessage('Produto não foi alterado')
         break;
       case 'msg2':
-        let msg2 =  this.showMessage('Produto não foi excluído')
+        this.showMessage('Produto não foi excluído')
         break;
       case 'msg3':
-        let msg3 = this.showMessage('Novo produto foi cancelado')
+        this.showMessage('Novo produto foi cancelado')
         break;
     }
   }
